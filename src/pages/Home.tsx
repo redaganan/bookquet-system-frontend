@@ -1,7 +1,13 @@
+import Body from "../components/body";
+import Footer from "../components/footer";
+import Header from "../components/header";
 function Home() {
-    return ( <>
-    <h1>This Home</h1>
-    </> );
+  return (
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
+  );
 }
-
 export default Home;
