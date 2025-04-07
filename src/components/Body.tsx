@@ -1,11 +1,15 @@
 import "../styles/home.css";
 function Body() {
+  const handleClick = () => {
+    window.location.href = "/products";
+  };
+
   return (
     <>
       <div className="container">
         <h2>Fresh Flowers for Every Occasion</h2>
         <p>Discover handcrafted bouquets and floral arrangements</p>
-        <button>Shop Now</button>
+        <button onClick={handleClick}>Shop Now</button>
       </div>
       <div className="products">
         <div className="product">
