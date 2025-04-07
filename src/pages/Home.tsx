@@ -6,6 +6,12 @@ function Home() {
     <>
       <Header />
       <Body />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Footer />
     </>
   );

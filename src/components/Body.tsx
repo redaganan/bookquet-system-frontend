@@ -1,13 +1,17 @@
+import { useNavigate } from "react-router-dom";
 import "../styles/home.css";
 function Body() {
+  const navigate = useNavigate();
+  const handleClick = () => {
+	navigate("/collections");
+  };
 
-  
   return (
     <>
       <div className="container">
         <h2>Fresh Flowers for Every Occasion</h2>
         <p>Discover handcrafted bouquets and floral arrangements</p>
-        <button onClick={() => alert('Shop Now clicked!')}>Shop Now</button>
+        <button onClick={handleClick}>Shop Now</button>
       </div>
       <div className="products">
         <div className="product">
