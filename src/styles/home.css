@@ -34,12 +34,6 @@ header {
     width: 30px;
     height: 30px;
 }
-.search-bar {
-    padding: 5px;
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
 .container {
     padding: 20px;
 }
@@ -71,8 +65,4 @@ footer {
 }
 .footer-section {
     width: 25%;
-}
-.search-bar { 
-    display: flex; 
-    align-items: center ;
 }
