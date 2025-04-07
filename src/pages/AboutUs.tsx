@@ -1,14 +1,14 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
-const Contact = () => {
+const AboutUs = () => {
 	return (
 		<>
 			<Header />
-			<div>This Contact</div>
+			<div>This About</div>
 			<Footer />
 		</>
 	);
 };
 
-export default Contact;
+export default AboutUs;

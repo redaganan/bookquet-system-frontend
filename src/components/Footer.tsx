@@ -8,10 +8,9 @@ function Footer() {
           <h3>Bookquet.ph</h3>
           <p>Flower Market, Maria Clara, Manila City</p>
           <p>
-            Send beautiful, affordable flowers and gifts from only P399 with
-            Free Same-Day Delivery in Metro Manila, Metro Cebu, Davao, and other
-            selected areas. FlowerStore.ph is the Philippines' Cash On Delivery
-            is accepted. No Credit Card required. Perfect for Birthdays,
+            Send beautiful, affordable flowers and gifts from only P599 with
+            Free Same-Day Pick-up in Metro Manila, Metro Cebu, Davao, and other
+            selected areas. FlowerStore.ph is Perfect for Birthdays,
             Anniversaries, Romance, Valentine's Day, Mother's Day, and all other
             occasions. We also deliver sympathy funeral flowers.
           </p>

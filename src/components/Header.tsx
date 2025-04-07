@@ -12,9 +12,8 @@ function Header() {
 					<ShoppingCartIcon style={{ marginRight: "8px" }} />
 					<nav className="nav-menu">
                         <Link to="/">Home</Link>
-                        <Link to="/products"> Shop</Link>
                         <Link to="/collections">Collections</Link>
-						<Link to="/contact">Contact</Link>
+						<Link to="/about">About Us</Link>
 					</nav>
 
 					<div className="search-bar">
