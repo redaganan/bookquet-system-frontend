@@ -4,12 +4,13 @@ import { DemoContainer, DemoItem } from "@mui/x-date-pickers/internals/demo";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import dayjs, { Dayjs } from "dayjs";
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { upload } from "../api/upload";
 
 export default function DateCalendarValue() {
 	const [value, setValue] = useState<Dayjs | null>(dayjs());
 	const location = useLocation();
+    const navigate = useNavigate();
 	const selectedFlowers = location.state as { name: string; price: number }[]; // Get the selected flowers from the location state
 
 	const handleCheckout = async (value: Dayjs | null) => {
@@ -52,6 +53,7 @@ export default function DateCalendarValue() {
 		} catch (error) {
 			alert("Checkout failed. Please try again later."); // Show error message
 		}
+        navigate("/exit"); // Navigate to the exit page after checkout
 	};
 
 	return (
