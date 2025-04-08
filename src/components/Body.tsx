@@ -23,10 +23,12 @@ function Body() {
 					</Link>
 				</div>
 				<div className="product">
-					<img src="bundles.jpg" alt="bundles" />
-					<p>
-						<strong>Bundles</strong>
-					</p>
+					<Link to="/collections">
+						<img src="bundles.jpg" alt="bundles" />
+						<p>
+							<strong>Bundles</strong>
+						</p>
+					</Link>
 				</div>
 			</div>
 		</>
