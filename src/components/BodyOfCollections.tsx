@@ -1,5 +1,6 @@
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import "../styles/home.css";
 
@@ -8,13 +9,18 @@ function Body() {
 	const [selectedFlowers, setSelectedFlowers] = useState<
 		{ name: string; src: string; price: number }[]
 	>([]); // State to store selected flowers
+    const navigate = useNavigate();
 
 	// Function to handle adding a flower to the array
 	const handleFlowerClick = (flower: any) => {
 		setSelectedFlowers((prev) => [...prev, flower]);
 	};
+    const handleCheckout = () => {
+        navigate("/checkout", {state: selectedFlowers}); // Navigate to the checkout page
+        // console.log(selectedFlowers)
+    }
 
-	console.log(selectedFlowers); // Log the selected flowers to the console
+	// console.log(selectedFlowers); // Log the selected flowers to the console
 
 	return (
 		<>
@@ -86,7 +92,7 @@ function Body() {
 							<button onClick={() => setSelectedFlowers([])}>
 								Clear
 							</button>
-							<button>Checkout</button>
+							<button onClick={handleCheckout}>Checkout</button>
 						</div>
 					)}
 				</div>

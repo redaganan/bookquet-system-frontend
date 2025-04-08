@@ -1,7 +1,7 @@
 
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import BodyOfCheckout2 from "../components/BodyOfCheckout2";
+import BodyOfCheckout2 from "../components/BodyOfCheckout";
 function Checkout() {
   return (
     <>
