@@ -105,32 +105,31 @@ function Body() {
 					{
 						src: "../flowers/anniversary/Cherished-Love-Bundle.png",
 						name: "Cherished-Love-Bundle",
-						price: 1000,
-					},
+						price: 3999					},
 					{
 						src: "../flowers/anniversary/Daffodil.jpg",
 						name: "Daffodil",
-						price: 1000,
+						price: 999,
 					},
 					{
 						src: "../flowers/anniversary/Lilac.webp",
 						name: "Lilac",
-						price: 1000,
+						price: 1299,
 					},
 					{
 						src: "../flowers/anniversary/roses.jpg",
 						name: "roses",
-						price: 1000,
+						price: 1499,
 					},
 					{
 						src: "../flowers/anniversary/Sunflower.jpg",
 						name: "Sunflower",
-						price: 1000,
+						price: 1700
 					},
 					{
 						src: "../flowers/anniversary/White-roses.jpg",
 						name: "White-roses",
-						price: 1000,
+						price: 1699,
 					},
 				].map((product, index) => (
 					<div
@@ -153,22 +152,22 @@ function Body() {
 					{
 						src: "../flowers/birthday/amalia.webp",
 						name: "amalia",
-						price: 1000,
+						price: 2080,
 					},
 					{
 						src: "../flowers/birthday/candy-rush.webp",
 						name: "candy-rush",
-						price: 1000,
+						price: 1999,
 					},
 					{
 						src: "../flowers/birthday/Heather-Birthday-Bundle.webp",
 						name: "Heather Birthday Bundle",
-						price: 1000,
+						price: 3989,
 					},
 					{
 						src: "../flowers/birthday/Stargazer.jpg",
 						name: "Stargazer",
-						price: 1000,
+						price: 1499,
 					},
 				].map((product, index) => (
 					<div
@@ -191,22 +190,22 @@ function Body() {
 					{
 						src: "../flowers/funeral/deepest-sympathies-funeral-flower-basket.webp",
 						name: "deepest sympathies",
-						price: 1000,
+						price: 1900
 					},
 					{
 						src: "../flowers/funeral/faith-and-adoration-sympathy-flower.webp",
 						name: "Faith and Adoration",
-						price: 1000,
+						price: 2800 	 
 					},
 					{
 						src: "../flowers/funeral/rest-in-peace-funeral-condolences-flower-stand.webp",
 						name: "Peace flower",
-						price: 1000,
+						price: 3000,
 					},
 					{
 						src: "../flowers/funeral/white-condolence-flowers.webp",
 						name: "White Condolence",
-						price: 1000,
+						price: 3999,
 					},
 				].map((product, index) => (
 					<div
