@@ -23,7 +23,7 @@ const AboutUs = () => {
 					and a genuine appreciation for the beauty of flowers. With a focus on quality, care, and personal touch, 
 					we aim to provide fresh, handcrafted floral pieces that bring warmth to any occasion.
 				</h5>
-				<img src="public\rahhh.jpg" />
+				<img src="..\rahhh.jpg" />
             <BodyOfAboutUs />
 			
 			</div>

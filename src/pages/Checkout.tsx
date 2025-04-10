@@ -1,4 +1,3 @@
-
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import BodyOfCheckout2 from "../components/BodyOfCheckout";
@@ -7,8 +6,7 @@ function Checkout() {
     <>
       <Header />
 
-
-        <BodyOfCheckout2 />
+      <BodyOfCheckout2 />
       <Footer />
     </>
   );

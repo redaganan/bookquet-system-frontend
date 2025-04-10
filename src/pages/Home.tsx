@@ -6,12 +6,7 @@ function Home() {
     <>
       <Header />
       <Body />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <div style={{ margin: "9rem 0" }} />
       <Footer />
     </>
   );
